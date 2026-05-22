@@ -1,13 +1,13 @@
 # DiscordBot
 
-## Koodityyli
+## Code style
 
-Tässä projektissa pyritään **mahdollisimman kompaktiin koodiin**:
+This project aims for **the most compact code possible**:
 
-- Lyhyet, tiiviit ilmaisut; turhaa toistoa ja pitkiä rakenteita vältetään.
-- Yksi rivi tai lyhyt lohko, kun se on yhtä selkeä kuin useampi rivi.
-- Ei ylimääräisiä abstraktioita, apufunktioita tai tiedostoja ilman selkeää tarvetta.
-- Kommentit vain silloin, kun logiikka ei ole itsestään selvä.
-- Ulkoiset kirjastot ja valmiit API:t käytetään sen sijaan, että sama toteutetaan uudelleen pitkällä koodilla.
+- Prefer short, concise expressions; avoid redundant repetition and verbose structures.
+- Use a single line or a short block when it is as clear as multiple lines.
+- No extra abstractions, helper functions, or files without a clear need.
+- Comments only when the logic is not self-explanatory.
+- Use external libraries and existing APIs instead of reimplementing the same behavior in longhand.
 
-Kompaktius ei saa heikentää toimivuutta tai turvallisuutta. Jos tiiviys ja selkeys ovat ristiriidassa, valitaan lyhyin muoto, joka on edelleen luettavissa ja ylläpidettävissä.
+Compactness must not weaken functionality or security. When brevity and clarity conflict, choose the shortest form that remains readable and maintainable.
